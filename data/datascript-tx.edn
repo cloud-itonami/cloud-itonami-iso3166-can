@@ -1,0 +1,31 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "can.business-corporations-act"
+           :title "Canada Business Corporations Act"
+           :jurisdiction "CAN"
+           :kind :law
+           :law-number "R.S.C., 1985, c. C-44"
+           :url "https://laws-lois.justice.gc.ca/eng/acts/C-44/index.html"
+           :url-provenance :official-justice-laws
+           :retrieved-at "2026-07-14"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "can.pipeda"
+           :title "Personal Information Protection and Electronic Documents Act (PIPEDA)"
+           :jurisdiction "CAN"
+           :kind :law
+           :law-number "S.C. 2000, c. 5"
+           :url "https://laws-lois.justice.gc.ca/eng/acts/p-8.6/"
+           :url-provenance :official-justice-laws
+           :enacted-date "2000"
+           :retrieved-at "2026-07-14"
+           :topic [:data-protection :privacy]}
+ #:statute{:id "can.labour-code"
+           :title "Canada Labour Code"
+           :jurisdiction "CAN"
+           :kind :law
+           :law-number "R.S.C., 1985, c. L-2"
+           :url "https://laws-lois.justice.gc.ca/eng/acts/l-2/"
+           :url-provenance :official-justice-laws
+           :retrieved-at "2026-07-14"
+           :topic [:labor :employment]}]
